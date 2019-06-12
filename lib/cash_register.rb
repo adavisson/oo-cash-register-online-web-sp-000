@@ -15,6 +15,7 @@ class CashRegister
     if @discount > 0
       @total * @discount / 100
     end
+    binding.pry
   end
   
 end
