@@ -15,7 +15,7 @@ class CashRegister
     quantity.do
       @total += price
       @items << title
-      
+    end
   end
   
   def apply_discount
